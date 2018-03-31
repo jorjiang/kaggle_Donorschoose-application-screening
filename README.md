@@ -16,7 +16,7 @@ Is solution get an AUC score of 0.82435, the leader has 0.82830, currently ranke
   - Amount of total applications from that teacher
 ### Date features
   - hour, day, month, quarter, year, week of the year, day of the month, day of the week, holidays
-## model
+## Model
 Lightgbm with K-fold (k = 5)
 ```
 params = {
