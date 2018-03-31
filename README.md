@@ -17,7 +17,7 @@ Is solution get an AUC score of 0.82435, the leader has 0.82830, currently ranke
   - hour, day, month, quarter, year, week of the year, day of the month, day of the week, holidays
 ## model
 Lightgbm with K-fold (k = 5)
-params = {
+```params = {
         'boosting_type': 'gbdt',
         'objective': 'binary',
         'metric': 'auc',
@@ -31,4 +31,4 @@ params = {
         'num_threads': 1,
         'lambda_l2': 1,
         'min_gain_to_split': 0,
-    }  
+    }```  
